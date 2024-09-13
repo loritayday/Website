@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+header {
+	background-color: rgba(146,151,160,1.00);
+	clear: both;
+}
+
+nav {
+	background-color: rgba(109,109,119,1.00)
+}
+
+section {
+	
+}
+
+article {
+	
+}
+
+aside {
+	
+}
+
+footer {
+	clear: both;
+	margin-top: 20px;
+}
+
+body {
+	background-color: rgba(192,193,201,1.00);
+}
+
+h1 {
+	font-family: "Silkscreen", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 60px;
+}
+
+h2 {
+	font-family: "Handjet", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 40px;
+}
+
+h3 {
+	font-family: "Big Shoulders Display", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 25px;
+}
+
+p1 {
+	font-family: "Reddit Mono", monospace;
+	font-weigh: 500;
+	font-style: normal;
+	font-size: 18px;
+}
+
+p2 {
+	font-family: "Reddit Mono", monospace;
+	font-weight: 450;
+	font-style: normal;
+	font-size: 14px;
+}
+
+p3 {
+	font-family: "Verdana", sans-serif;
+	font-size: 10px;
+}
+
+div {
+	clear: both;
+}
+
+.taylor_spencer {
+	font-family: "Silkscreen", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 80px;
+}
+
+.navbar {
+	font-family: "Big Shoulders Display", sans-serif;
+	font-weight: 500px;
+	font-style: normal;
+	font-size: 18px;
+	border: thick;
+	border-style: double;
+	border-color: rgba(14,21,32,1.00);
+	margin: 10px;
+	padding: 5px;
+}
+
+.copyright {
+	background-color: rgba(101,104,111,1.00);
+	padding:5px;
+	font-family: "Verdana", sans-serif;
+	font-size: 10px;
+	text-align: center;
+}
+
+.img_left {
+	display: block;
+	float: left;
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.img_right {
+	display: block;
+	float: right;
+	margin-left: 5px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.visibility {
+	visibility: hidden;
+}
+
+.silkscreen {
+  font-family: "Silkscreen", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.handjet {
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.big-shoulder {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.reddit-mono {
+  font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
