@@ -90,25 +90,6 @@ div {
 	background-color: rgba(192,193,201,1.00);
 }
 
-ul.navbar {
-	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
-	overflow: hidden;
-}
-
-li.navbar {
-	float: left;
-	padding: 8px;
-	background-color: rgba(192,193,201,1.00);
-}
-
-li a.navbar {
-	display: block;
-	padding: 8px;
-	background-color: rgba(192,193,201,1.00);
-}
-
 a:link {
 	color: rgba(248,250,255,1.00);
 	text-decoration: none;
