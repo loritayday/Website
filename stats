@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Stats</title>
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<script src="jquery-3.7.1.min.js"></script>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=DotGothic16&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<div class="mainhead">Taylor Spencer</div>
+	
+	<div class="navbar">
+	  <ul>
+		  <li><a class="navbar" href="index.html">home</a></li>
+		  <li><a class="navbar" href="video.html">videography</a></li>
+		  <li><a class="navbar" href="photo.html">photography</a></li>
+		  <li><a class="navbar" href="about.html">about</a></li>
+		  <li><a class="navbar" href="stats.html">stats</a></li>
+	  </ul>
+	</div>
+	
+	<div class="flex-contain"><p>The stats page contains extra information regarding this website for the purpose of submitting it to assignments and sharing with fellow classmates. Upon publishing this website a lot of the items on this website may be deleted or replaced. The stats page itself will be completely removed. Below can be found a moodboard for this website as well as a table directing viewers to find the locations of certain class requirements. A check or cross will denote whether an assignment was turned in on time.</p></div>
+	
+	<div class="moodboardimg">
+	<img src="images/FinalMoodboard.png" alt="Website moodboard." width="500" usemap="#moodboard">
+	</div>
+		
+	<map name="moodboard">
+		<area shape="rect" coords="230,546,490,582" alt="Silkscreen font." href="https://fonts.google.com/specimen/Silkscreen?query=silkscreen">
+		<area shape="rect" coords="267,593,586,633" alt="DotGothic16 font." href="https://fonts.google.com/specimen/DotGothic16?query=dotgothic16">
+		<area shape="rect" coords="227,640,407,677" alt="Inter Tight font." href="https://fonts.google.com/specimen/Inter+Tight?query=inter+tight">
+		<area shape="rect" coords="246,685,485,733" alt="Big Shoulders Display font." href="https://fonts.google.com/specimen/Big+Shoulders+Display"></map>
+	
+	<div class="flex-contain">
+	<table class="stats">
+		<tr>
+		  <th>ASSIGNMENT</th>
+		  <th>REQUIREMENTS</th>
+		  <th>LOCATION</th>
+		</tr>
+		<tr>
+		  <td>&#x2705 Module 2</td>
+		  <td><ul class="requirements">
+			  <li>At least three images</li>
+			  <li>Use of headings (h1, h2, h3)</li>
+			  <li>Text emphasis (bold, italic, strong)</li>
+			  <li>Title attribute</li></ul></td>
+		  <td><ul class="requirements">
+			  <li>Images found on home page</li>
+			  <li>Heading use found on videography</li>
+			  <li>Text emphasis found on videography</li>
+			  <li>Title attribute found on videography</li></ul></td>
+		</tr>
+		<tr>
+		  <td>&#x2705 Module 3</td>
+		  <td><ul class="requirements">
+			  <li>Linked & functioning CSS page</li>
+			  <li>Borders, padding, and dimension</li>
+			  <li>CSS based color</li>
+			  <li>CSS visibility & display</li>
+			  <li>CSS child & descendant selectors</li></ul></td>
+		  <td><ul class="requirements">
+			  <li>Majority found on backend and throughout website</li>
+			  <li>Visibility & display on found videography page</li>
+			  <li>Child & descendant selectors found on videography</li></ul></td>
+		</tr>
+		<tr>
+		  <td>&#x2705 Module 4</td>
+		  <td><ul class="requirements">
+			  <li>Style fonts</li>
+			  <li>Pseudo-classes for links</li>
+			  <li>At least one Google font</li>
+			  <li>Interactive map</li></ul></td>
+		  <td><ul class="requirements">
+			  <li>Majority found on backend and throughout website</li>
+			  <li>Interactive image map found on photography page</li></ul></td>
+		</tr>
+		<tr>
+		  <td>&#x274C Module 5</td>
+		  <td><ul class="requirements">
+			  <li>Create & style table</li>
+			  <li>Create & style 2 lists</li>
+			  <li>Add iFrame</li>
+			  <li>Add simple JavaScript logic</li>
+			  <li>Two emojis or special symbols</li></ul></td>
+		<td><ul class="requirements">
+			<li>Styled table found here</li>
+			<li>Styled lists found here and as navigation bar</li>
+			<li>iFrame found ?</li>
+			<li>JavaScript logic found on videography page</li>
+			<li>Emojis/special symbols found here</li></ul></td>
+		</tr>
+		<tr>
+		  <td>&#x274C Module 6</td>
+		  <td><ul class="requirements">
+			<li>A styled form with data entries</li>
+			<li>Media (not YouTube)</li>
+			<li>Canvas shape</li>
+			<li>CSS based navbar</li></ul></td>
+		  <td><ul class="requirements">
+			<li>Styled form found on about page</li>
+			<li>Media found on photography page</li>
+			<li>Canvas shape found ?</li>
+			<li>CSS based navbar found above on navbar</li></ul></td>
+		</tr>
+		<tr>
+		  <td>Module 7</td>
+		<td><ul class="requirements">
+			<li>CSS based flexbox layout, in rows and columns</li>
+			<li>JQuery UI object</li></ul></td>
+		<td><ul class="requirements">
+			<li>Flexbox found on backend and throughout website</li>
+			<li>JQuery UI item found on videography page</li></ul></td></tr></table></div>
+</body>
+</html>
