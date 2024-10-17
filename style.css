@@ -185,3 +185,39 @@ h3 {
 	justify-content: center;
 	align-content: center;
 }
+
+.contact {
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	padding: 20px 0px 20px 20px;
+}
+
+.wide {
+	width: 200%;
+	padding: 5px 0px 5px 0px;
+}
+
+.messagebox {
+	width: 300%;
+	padding: 5px 0px 5px 0px;
+	height: 200px;
+	border-radius: 5px;
+}
+
+.label {
+	font-family: "Inter Tight", sans-serif;
+	color: rgba(206,185,158,1.00);
+	padding: 0px 0px 0px 2px;
+}
+
+.wide {
+	border-radius: 5px;
+}
+
+.subbutton {
+	border-radius: 5px;
+	background-color: rgba(151,132,107,1.00);
+	color: rgba(66,62,58,1.00);
+	margin: 10px 0px 0px 0px;
+}
