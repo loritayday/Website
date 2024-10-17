@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Videography</title>
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script>
+      $(document).ready(function(){
+      $("button").click(function(){
+      $("p").hide();
+  });
+});
+</script>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=DotGothic16&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<div class="mainhead">Taylor Spencer</div>
+	
+	<div class="navbar">
+	  <ul>
+		  <li><a class="navbar" href="index.html">home</a></li>
+		  <li><a class="navbar" href="video.html">videography</a></li>
+		  <li><a class="navbar" href="photo.html">photography</a></li>
+		  <li><a class="navbar" href="about.html">about</a></li>
+		  <li><a class="navbar" href="stats.html">stats</a></li>
+	  </ul>
+	</div>
+
+<div class="flex-contain">
+	<div class="temp"><button title="Example Button">JQuery Item Example</button>
+	
+		<p><i>This</i> <b>paragraph</b> will be <strong>hidden</strong> as an example of the JQuery script by clicking the button.</p>
+	</div>
+	<div class="flex-contain">
+	    <h1 class="hideme">This element is hidden.</h1>
+	    <h2 class="visible">This element is also hidden.</h2>
+	    <h3>There are two more hidden elements on this page.</h3></div>
+	</div>
+	
+</body>
+</html>
