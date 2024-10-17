@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photography</title>
+	
+	<link rel="stylesheet" href="style.css">
+	
+	<script src="jquery-3.7.1.min.js"></script>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=DotGothic16&family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<div class="mainhead">Taylor Spencer</div>
+	
+	<div class="navbar">
+	  <ul>
+		  <li><a class="navbar" href="index.html">home</a></li>
+		  <li><a class="navbar" href="video.html">videography</a></li>
+		  <li><a class="navbar" href="photo.html">photography</a></li>
+		  <li><a class="navbar" href="about.html">about</a></li>
+		  <li><a class="navbar" href="stats.html">stats</a></li>
+	  </ul>
+	</div>
+	
+	<div class="showcase">
+	  <table>
+		<tr>
+		  <th>title</th>
+		  <th>title</th>
+		  <th>title</th>
+		</tr>
+		<tr>
+		  <td>video or photo here</td>
+		  <td>video or photo here</td>
+		  <td>video or photo here</td>
+		</tr>
+		<tr>
+		  <td>description</td>
+		  <td>description</td>
+		  <td>description</td>
+		</tr>
+		<tr>
+		  <th>title</th>
+		  <th>title</th>
+		  <th>title</th>
+		</tr>
+		<tr>
+		  <td>video or photo here</td>
+		  <td>video or photo here</td>
+		  <td>video or photo here</td>
+		</tr>
+		<tr>
+		  <td>description</td>
+		  <td>description</td>
+		  <td>description</td>
+		</tr></table></div>
+	
+</body>
+</html>
