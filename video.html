@@ -48,6 +48,43 @@
 	  </ul>
 	</div>
 
+<div class="flex-contain"><button onclick="getlocation()">API Example</button>
+	
+<script>
+const x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+  } else { 
+    x.innerHTML = "Cannot locate you due to browser limitations.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+
+function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      x.innerHTML = "You have denied the API example."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML = "Unable to locate you."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML = "Request timeout."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML = "An unknown error occurred."
+      break;
+  }
+}
+</script>
+	</div>
+	
 <div class="flex-contain">
 	<div class="temp"><button title="Example Button">JQuery Item Example</button>
 	
