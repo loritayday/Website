@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+@media only screen and (min-width: 600px) {
 * {
   box-sizing: border-box;
 }
@@ -154,7 +155,7 @@ h3 {
 	border-color: rgba(151,132,107,1.00);
 	padding: 15px 200px 15px 200px;
 	font-family: "Inter Tight", sans-serif;
-	font-size: 20px;
+	font-size: 10px;
 	color: rgba(206,185,158,1.00);
 	letter-spacing: 2px;
 }
@@ -163,7 +164,7 @@ h3 {
 	border-style: solid;
 	border-width: thin;
 	border-color: rgba(151,132,107,1.00);
-	padding: 8px;
+	padding: 2px;
 	font-family: "Big Shoulders Display", sans-serif;
 	color: rgba(206,185,158,1.00);
 	letter-spacing: 1px;
@@ -220,4 +221,229 @@ h3 {
 	background-color: rgba(151,132,107,1.00);
 	color: rgba(66,62,58,1.00);
 	margin: 10px 0px 0px 0px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+	* {
+  box-sizing: border-box;
+}
+
+body {
+	background-color: rgba(66,62,58,1.00);
+	border-style: solid;
+	border-color: rgba(178,158,132,1.00);
+	border-radius: 15px 15px 0px 0px;
+}
+
+.flex-contain {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  margin: 5px 0px 5px 0px;
+}
+
+.flex-contain > p {
+	margin: 0px 50px 0px 50px;
+}
+
+.mainhead {
+	display: flex;
+	background-color: rgba(178,158,132,1.00);
+	border-radius: 35px 35px 0px 0px;
+	padding: 0px 2px 0px 2px;
+	align-content: center;
+	justify-content: center;
+	font-family: "Silkscreen", sans-serif;
+	font-size: 35px;
+	color: rgba(110,94,73,1.00);
+}
+
+.navbar {
+	display: flex;
+	background-color: rgba(151,132,107,1.00);
+	padding: 1px 1px 1px 1px;
+	align-content: center;
+	justify-content: center;
+	font-family: "DotGothic16", sans-serif;
+	font-size: 12px;
+	color: rgba(66,62,58,1.00);
+	letter-spacing: 10px;
+	text-decoration: none;
+}
+
+.navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar li {
+	display: block;
+	padding: 0px 5px 0px 5px;
+}
+
+.navbar a:hover {
+	color: rgba(150,163,165,1.00);
+	text-shadow: 1px 1px rgba(32,57,52,0.50);
+}
+
+.imgrow {
+  padding: 10px 0px 0px 0px;
+  display: hidden;
+}
+
+.imgcol {
+  flex: 33.33%;
+  padding: 5px;
+  display: hidden;
+}
+
+
+.intropara {
+	display: flex;
+	font-family: "Inter Tight", sans-serif;
+	font-size: 15px;
+	justify-content: center;
+}
+
+.temp {
+	display: flex;
+	justify-content: center;
+	margin: 5px 5px 5px 5px;
+}
+
+.hideme {
+	display: none;
+}
+
+.visible {
+	visibility: hidden;
+}
+
+p {
+	font-family: "Inter Tight", sans-serif;
+	color: rgba(206,185,158,1.00);
+	margin: 0px 0px 0px 2px;
+}
+
+h1 {
+	font-family: "Big Shoulders Display", sans-serif;
+}
+
+h2 {
+	font-family: "Big Shoulders Display", sans-serif;
+}
+
+h3 {
+	font-family: "Big Shoulders Display", sans-serif;
+	color: rgba(206,185,158,1.00);
+}
+
+.showcase {
+	display: flex;
+	justify-content: center;
+	margin: 0px 0px 5px 0px;
+	text-align: center;
+}
+
+.showcase th {
+	padding: 20px 0px 5px 0px;
+	font-family: "Inter Tight", sans-serif;
+	font-size: 15px;
+	color: rgba(206,185,158,1.00);
+	letter-spacing: 1px;
+}
+
+.showcase td {
+	padding: 5px 55px 5px 55px;
+	font-family: "Big Shoulders Display", sans-serif;
+	font-size: 12px;
+	color: rgba(151,132,107,1.00);
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
+.stats {
+	display: flex;
+	justify-content: center;
+	margin: 2px 2px 2px 2px;
+	border-collapse: collapse;
+}
+
+.stats th {
+	border-style: solid;
+	border-width: thin;
+	border-color: rgba(151,132,107,1.00);
+	padding: 5px 50px 5px 50px;
+	font-family: "Inter Tight", sans-serif;
+	font-size: 10px;
+	color: rgba(206,185,158,1.00);
+	letter-spacing: 2px;
+}
+
+.stats td {
+	border-style: solid;
+	border-width: thin;
+	border-color: rgba(151,132,107,1.00);
+	padding: 1px;
+	font-family: "Big Shoulders Display", sans-serif;
+	color: rgba(206,185,158,1.00);
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
+.requirements {
+	text-align: left;
+}
+
+.moodboardimg {
+	display: flex;
+	justify-content: center;
+	margin: 20px 0px 5px 0px;
+}
+
+.submit_form {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.contact {
+	display: flex;
+	justify-content: center;
+	width: 70%;
+	padding: 10px 0px 10px 10px;
+}
+
+.wide {
+	width: 100%;
+	padding: 2px 0px 2px 0px;
+}
+
+.messagebox {
+	width: 200%;
+	padding: 2px 0px 2px 0px;
+	height: 50px;
+	border-radius: 2px;
+}
+
+.label {
+	font-family: "Inter Tight", sans-serif;
+	color: rgba(206,185,158,1.00);
+	padding: 0px 0px 0px 2px;
+}
+
+.wide {
+	border-radius: 2px;
+}
+
+.subbutton {
+	border-radius: 5px;
+	background-color: rgba(151,132,107,1.00);
+	color: rgba(66,62,58,1.00);
+	margin: 5px 0px 0px 0px;
+}
 }
